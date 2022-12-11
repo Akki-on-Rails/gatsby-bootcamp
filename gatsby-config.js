@@ -8,5 +8,9 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  plugins: [],
+  siteMetadata: {
+    title: 'Techlabs Bootcamp',
+    author: 'Frank Gerngroß'
+  },
+  plugins: [`gatsby-plugin-sass`],
 }
