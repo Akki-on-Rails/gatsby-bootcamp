@@ -25,7 +25,7 @@ const BlogPage = () => {
     <Layout>
       <h1>Blog</h1>
       <ol>
-        {data.allMarkdownRemark.edges.map(data => (
+        {[...data.allMarkdownRemark.edges].reverse().map(data => (
           <li><h2>{data.node.frontmatter.title}</h2><p>{data.node.frontmatter.date}</p></li>
         ))}
       </ol>
