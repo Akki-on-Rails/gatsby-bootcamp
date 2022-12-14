@@ -3,7 +3,7 @@ title: 'The Great Gatsby Bootcamp'
 date: '2022-12-11'
 ---
 
-I joined a Bootcamp to learn hov to work with Gatsby!
+I joined a Bootcamp to learn how to work with Gatsby!
 
 ## Bootcamp Topics Covered
 
