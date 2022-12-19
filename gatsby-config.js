@@ -40,6 +40,8 @@ module.exports = {
             },
           },
           'gatsby-plugin-image',
+          'gatsby-plugin-sharp',
+          'gatsby-transformer-sharp', // Needed for dynamic images
           'gatsby-remark-relative-images',
           {
             resolve: 'gatsby-remark-images',
