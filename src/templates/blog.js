@@ -14,11 +14,12 @@ export const query = graphql`
       publishedDate(formatString: "MMM Do YYYY")
       body {
         raw
-        references{
-          contentful_id
-          title
-          fixed{
-            src
+        references {
+          ... on ContentfulAsset {
+            contentful_id
+            title
+            gatsbyImageData(width: 1600)
+            __typename
           }
         }
       }
